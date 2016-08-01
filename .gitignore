@@ -1,0 +1,19 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+.gitignore
+.idea/
+roncoo-pay-app-notify/roncoo-pay-app-notify.iml
+roncoo-pay-app-reconciliation/roncoo-pay-app-reconciliation.iml
+roncoo-pay-app-settlement/roncoo-pay-app-settlement.iml
+roncoo-pay-common-core/roncoo-pay-common-core.iml
+roncoo-pay-service/roncoo-pay-service.iml
+roncoo-pay-web-boss/roncoo-pay-web-boss.iml
+roncoo-pay-web-gateway/roncoo-pay-web-gateway.iml
+roncoo-pay.iml
