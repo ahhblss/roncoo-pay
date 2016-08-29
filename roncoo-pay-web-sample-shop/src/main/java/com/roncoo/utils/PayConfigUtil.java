@@ -43,7 +43,7 @@ public class PayConfigUtil {
     // 通过类装载器装载进来
     static {
         try {
-            // 从类路径下读取属性文件
+            // 从类路径下读取属性文件(class.getClassLoader()默认是src的路径)
             properties.load(PayConfigUtil.class.getClassLoader()
                     .getResourceAsStream("pay_config.properties"));
         } catch (IOException e) {

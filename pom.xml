@@ -10,10 +10,6 @@
 	<name>roncoo-pay</name>
 	<url>http://maven.apache.org</url>
 
-	<organization>
-		<name>Roncoo</name>
-		<url>http://www.roncoo.com</url>
-	</organization>
 
 	<modules>
 		<!-- core 是支付系统核心基础包 -->
@@ -30,21 +26,9 @@
 		<module>roncoo-pay-web-gateway</module>
 		<!-- 支付系统核心业务 -->
 		<module>roncoo-pay-service</module>
-	</modules>
 
-	<!-- 配置maven地址 -->
-	<distributionManagement>
-		<repository>
-			<id>nexus-releases</id>
-			<name>Nexus Release Repository</name>
-			<url>http://192.168.1.221:8081/nexus/content/repositories/releases/</url>
-		</repository>
-		<snapshotRepository>
-			<id>nexus-snapshots</id>
-			<name>Nexus Snapshot Repository</name>
-			<url>http://192.168.1.221:8081/nexus/content/repositories/snapshots/</url>
-		</snapshotRepository>
-	</distributionManagement>
+		<module>roncoo-pay-web-sample-shop</module>
+	</modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -372,35 +356,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
-	<!-- developer -->
-	<developers>
-		<developer>
-			<name>Along</name>
-			<id>shen.jialong</id>
-			<email>shenjl@roncoo.com</email>
-			<roles>
-				<role>Developer</role>
-			</roles>
-			<timezone>+8</timezone>
-		</developer>
-		<developer>
-			<name>peter</name>
-			<id>hu.peter</id>
-			<email>hupt@roncoo.com</email>
-			<roles>
-				<role>Developer</role>
-			</roles>
-			<timezone>+8</timezone>
-		</developer>
-		<developer>
-			<name>hugo</name>
-			<id>zeng.hao</id>
-			<email>zengh@roncoo.com</email>
-			<roles>
-				<role>Developer</role>
-			</roles>
-			<timezone>+8</timezone>
-		</developer>
-	</developers>
 </project>
